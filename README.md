@@ -8,9 +8,8 @@ Create a usefull daily used App, with good opportunities to implement Dark/Light
 
 ## Screenshots
 
-![](screenshots/locationAut.png)
-![](screenshots/lightMode.png)
-![](screenshots/darkMode.png)
+<img width="274" alt="lightMode" src="https://user-images.githubusercontent.com/53394008/84383934-8084b100-abed-11ea-99a8-ddbdd54cfcba.png">
+<img width="279" alt="darkMode" src="https://user-images.githubusercontent.com/53394008/84383998-9abe8f00-abed-11ea-9570-f041f5696ef2.png">
 
 ## Requirements
 
@@ -32,5 +31,5 @@ From : iOS 13 & Swift 5 - The Complete iOS App Development Bootcamp created by D
 
 © [LeaDK](https://github.com/Lea-Dukaez/)
 
-<img width="274" alt="lightMode" src="https://user-images.githubusercontent.com/53394008/84383934-8084b100-abed-11ea-99a8-ddbdd54cfcba.png">
+
 

@@ -61,11 +61,9 @@ extension WeatherViewController: UITextFieldDelegate {
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
-        // use searchTextField.text to get the weather for that city
         if let city = searchTextField.text {
             weatherBrain.fetchWeather(cityName: city)
         }
-        // clear the textfield
         searchTextField.text = ""
     }
 }

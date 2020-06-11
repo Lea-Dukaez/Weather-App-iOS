@@ -18,13 +18,16 @@ struct WeatherBrain {
     
     var delegate: WeatherBrainDelegate?
     
-    //    let apiKey = "&appid=518cd1e0440038dd58bcf054232312ff"
-    let weatherURL = "https://api.openweathermap.org/data/2.5/weather?units=metric&appid=518cd1e0440038dd58bcf054232312ff"
+    let weatherURL = "https://api.openweathermap.org/data/2.5/weather?units=metric"
     
     func fetchWeather(cityName: String) {
-        let newCityName = cityName.replacingOccurrences(of: " ", with: "+") 
-        let urlString = "\(weatherURL)&q=\(newCityName)"
-        performRequest(with: urlString)
+        if let apiKey = ProcessInfo.processInfo.environment["API_KEY_CLIMA_APP"] {
+            let newCityName = cityName.replacingOccurrences(of: " ", with: "+")
+            let urlString = "\(weatherURL)&appid=\(apiKey)&q=\(newCityName)"
+            performRequest(with: urlString)
+        } else {
+            print("Please create your API Key for https://api.openweathermap.org and add it as environment variable under 'API_KEY_CLIMA_APP'")
+        }
     }
     
     func fetchWeather(latitude: CLLocationDegrees, longitude: CLLocationDegrees) { 

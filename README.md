@@ -1,6 +1,6 @@
 # Weather-App-iOS
 
-Simple weather App created in Swift that give weather for your location or for other cities. Light and Dark mode available.
+Simple weather App created in Swift that gives weather for your location or for other cities. Light and Dark mode available.
 
 ## Motivation
 
@@ -8,9 +8,7 @@ Create a usefull daily used App, with good opportunities to implement Dark/Light
 
 ## Screenshots
 
-<img width="278" alt="locationAut" src="https://user-images.githubusercontent.com/53394008/84384833-defe5f00-abee-11ea-8c22-01ae2df4d5c7.png">
-<img width="279" alt="darkMode" src="https://user-images.githubusercontent.com/53394008/84384858-ecb3e480-abee-11ea-8873-8e8ed71dce4b.png">
-<img width="274" alt="lightMode" src="https://user-images.githubusercontent.com/53394008/84384798-d148d980-abee-11ea-894c-c0f0b1284e04.png">
+![screenshotsClimaApp](https://user-images.githubusercontent.com/53394008/84385267-94c9ad80-abef-11ea-9870-1fa28fa9ffc1.png)
 
 ## Requirements
 

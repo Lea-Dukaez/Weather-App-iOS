@@ -19,4 +19,4 @@ Create a usefull daily used App, with good opportunities to implement Dark/Light
 
 ## License
 
-© [LeaDK]()
+© [LeaDK](https://github.com/Lea-Dukaez/)

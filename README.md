@@ -8,8 +8,9 @@ Create a usefull daily used App, with good opportunities to implement Dark/Light
 
 ## Screenshots
 
-<img width="274" alt="lightMode" src="https://user-images.githubusercontent.com/53394008/84383934-8084b100-abed-11ea-99a8-ddbdd54cfcba.png">
-<img width="279" alt="darkMode" src="https://user-images.githubusercontent.com/53394008/84383998-9abe8f00-abed-11ea-9570-f041f5696ef2.png">
+<img width="278" alt="locationAut" src="https://user-images.githubusercontent.com/53394008/84384833-defe5f00-abee-11ea-8c22-01ae2df4d5c7.png">
+<img width="279" alt="darkMode" src="https://user-images.githubusercontent.com/53394008/84384858-ecb3e480-abee-11ea-8873-8e8ed71dce4b.png">
+<img width="274" alt="lightMode" src="https://user-images.githubusercontent.com/53394008/84384798-d148d980-abee-11ea-894c-c0f0b1284e04.png">
 
 ## Requirements
 
